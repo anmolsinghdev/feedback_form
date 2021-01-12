@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 1rem 2.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5em;
+  font-weight: bold;
+  margin: 0.2rem 0.5rem;
+}
+
+.container {
+  background-color: #eaedf5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .mainwrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #ccc;
+  line-height: 2;
+  position: relative;
+}
+
+.container .mainwrapper .close-icon {
+  background-color: #eaedf5;
+  position: absolute;
+  right: 1rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .mainwrapper .close-icon .fa-times {
+  font-size: 1.2rem;
+}
+
+.container .mainwrapper .close-icon:hover {
+  color: #e24e4e;
+  cursor: pointer;
+}
+
+.container .mainwrapper .rate-list .far {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.container .mainwrapper .rate-list .far:hover {
+  color: #e24e4e;
+  cursor: pointer;
+  background-color: #eaedf5;
+  border-radius: 50%;
+}
+
+.container .mainwrapper textarea {
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.container .mainwrapper textarea:hover {
+  border: 1px solid #3b70ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.container .mainwrapper textarea:active {
+  outline: none;
+  border: 1px solid #3b70ff;
+}
+
+.container .mainwrapper input[type="radio"] {
+  background-color: red;
+  margin: 0.5rem;
+}
+
+.container .mainwrapper .blue {
+  background-color: #3b70ff;
+  color: white;
+  box-shadow: 0px 4px 5px #ccc;
+}
+
+.container .mainwrapper .blue:hover {
+  box-shadow: 0px 5px 10px #ccc;
+}
+
+.container .mainwrapper .border {
+  border: 1px solid #ccc;
+  background-color: #ffff;
+  color: #6d6a6a;
+  box-shadow: 0px 2px 5px #ccc;
+}
+
+.container .mainwrapper .border:hover {
+  box-shadow: 0px 5px 10px #ccc;
+}
+
+@media only screen and (max-width: 395px) {
+  .container {
+    display: block;
+  }
+  .container .mainwrapper {
+    box-shadow: 0px;
+  }
+}
+
+@media only screen and (max-width: 403px) {
+  .container {
+    display: block;
+  }
+  .container .mainwrapper {
+    box-shadow: none;
+    border-radius: 0px;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  .container {
+    display: block;
+  }
+  .container .mainwrapper {
+    box-shadow: none;
+  }
+  .container .mainwrapper .close-icon {
+    top: 20px;
+  }
+  .container .mainwrapper .btn {
+    margin: 0px 5px;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .container {
+    display: block;
+  }
+  .container .mainwrapper {
+    box-shadow: none;
+  }
+  .container .mainwrapper .btn {
+    margin: 0px 2px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
